@@ -1,5 +1,5 @@
 package com.example.backend.controllers;
-
+/*
 import com.example.backend.dto.AuthenticationRequest;
 import com.example.backend.dto.AuthenticationResponse;
 import com.example.backend.model.Usuario;
@@ -18,10 +18,10 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("/auth")*/
 public class AuthController {
 
-    private final AuthenticationManager authenticationManager;
+    /*private final AuthenticationManager authenticationManager;
     private final UserDetailsServiceImpl userDetailsService;
     private final JWTUtil jwtUtil;
     private final AuthService authService;
@@ -54,5 +54,5 @@ public class AuthController {
         } catch(BadCredentialsException e) {
             return new ResponseEntity<>(HttpStatus.FORBIDDEN);
         }
-    }
+    }*/
 }
